@@ -37,9 +37,11 @@ public class phonetic {
     
         phonetic phoneticObj = new phonetic();
 
+        System.out.println("  ");
+        System.out.println("  ");
         System.out.println("enter word");
-        System.out.println(" ");
-        
+        System.out.println("  ");
+
         Scanner scanner = new Scanner(System.in);
 
         String input =  scanner.nextLine();
