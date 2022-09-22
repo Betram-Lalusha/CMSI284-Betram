@@ -1,0 +1,47 @@
+
+
+Evaluation Criteria ~ homework02
+CMSI 2210 Section 01 Fall 2021
+=================================
+
+BOOK PROBLEMS
+   Question 01    1 pt.
+   Question 02    1 pt.
+   Question 03    1 pt.
+   Question 04    1 pt.
+   Question 05    1 pt.
+   Question 06    1 pt.
+   Question 07    1 pt.
+   Question 08    1 pt.
+   Question 09    1 pt.
+   Question 10    1 pt.
+   Question 11    1 pt.
+   Question 12    1 pt.
+   Question 13    1 pt.
+   Question 14    1 pt.
+   Question 15    1 pt.
+   Question 16    1 pt.
+   Question 17    1 pt.
+   Question 18    1 pt.
+   Question 19    1 pt.
+   Question 20  0.5 pt.
+
+Total possible points 20
+
+========================================================
+
+TOTAL EARNED POINTS:
+   you earned 20/20 which is 100.0% which is an A-plus
+
+========================================================
+SPECIFIC COMMENTS/FEEDBACK:
+
+Nice work!  Just a couple of comments:
+
+On the last three, the values are not states as signed values, so those
+decimal values should not be negatives.  You have the correct values, but
+should not have put the minus sign on the front.  I only counted off on the
+last one, because that was not a conversion but was supposed to be the
+answer to a question that you just put the value.
+
+Great job on this one...  Now on to homework03!
