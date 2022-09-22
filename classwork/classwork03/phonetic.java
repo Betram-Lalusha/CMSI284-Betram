@@ -1,6 +1,5 @@
 
 import java.util.*;
-import java.io.A
 public class phonetic {
     public HashMap<Character, String> map = new HashMap<>();
 
@@ -38,15 +37,23 @@ public class phonetic {
     
         phonetic phoneticObj = new phonetic();
 
-        Scanner scanner = new Scanner();
+        System.out.println("  ");
+        System.out.println("  ");
+        System.out.println("enter word");
+        System.out.println("  ");
+
+        Scanner scanner = new Scanner(System.in);
+
         String input =  scanner.nextLine();
 
-        String lowercased = input.toLowercase();
+        String lowercased = input.toLowerCase();
+        System.out.println(" ");
 
         for(int i = 0; i < lowercased.length(); i++) {
             System.out.println(phoneticObj.map.get(lowercased.charAt(i)));
         }
 
+         System.out.println(" ");
 
     }
 }
