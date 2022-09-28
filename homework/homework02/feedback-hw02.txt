@@ -1,7 +1,7 @@
 
 
 Evaluation Criteria ~ homework02
-CMSI 2210 Section 01 Fall 2021
+CMSI 2210 Section 01 Fall 2022
 =================================
 
 BOOK PROBLEMS
@@ -31,7 +31,7 @@ Total possible points 20
 ========================================================
 
 TOTAL EARNED POINTS:
-   you earned 20/20 which is 100.0% which is an A-plus
+   you earned 19.5/20 which is 97.50% which is an A-plus
 
 ========================================================
 SPECIFIC COMMENTS/FEEDBACK:
