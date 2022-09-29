@@ -57,7 +57,7 @@ Total possible points 37
 ========================================================
 
 TOTAL EARNED POINTS:
-   You earned 28/37 which is 70.00% which is a C
+   You earned 28/37 which is 75.68% which is a C
 
 ========================================================
 SPECIFIC COMMENTS/FEEDBACK:
@@ -66,3 +66,6 @@ Not too bad on this difficult assignment!
 
 Don't forget to show your calculations for partial credit ~ you can pick up
 significant points doing that on tests.
+
+CORRECTION: A MISTAKE IN MY SPREADSHEET INCORRECTLY REPORTED THE EVALUATION
+SCORE ~ THIS HAS BEEN CORRECTED AS OF 2022-09-29.  SORRY FOR THE INCONVENIENCE!
