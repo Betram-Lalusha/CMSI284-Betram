@@ -1,7 +1,7 @@
 
 
 Evaluation Criteria ~ homework01
-CMSI 2210 Section 01 Fall 2021
+CMSI 2210 Section 01 Fall 2022
 =================================
 
 SAYHELLO.C
