@@ -1,0 +1,86 @@
+
+
+Evaluation Criteria ~ homework04
+CMSI 284 Section 01 Spring 2021
+=================================
+
+LOGIC DESIGN
+   Logic Question 1a         10/10
+   Logic Question 1b          5/ 5
+   Logic Question 2           8/10
+
+REGISTER OPERATIONS
+   Register clear even        2/ 2
+   Register set last 3        1/ 2
+   Reg./8 remainder           1/ 2
+   Reg. set to -1             1/ 2
+   Reg. invert 2 MSBs         2/ 2
+   Register computation       1/ 2
+
+STANLEY/PENGUIN ASSEMBLY
+   Q4 - program 1a           11/11
+   Q5 - program 1b            9/11
+   Q6 - GCD prog.            11/11
+   Q7 - swap frag             3/ 5
+   Q8 - jmp to addr           3/ 5
+
+REGISTER INVESTIGATION
+   Q9a - high level expl.     4/ 5
+   Q9b - Why?                 4/ 5
+
+
+Total possible points        90 points
+
+========================================================
+
+TOTAL EARNED POINTS:
+   you earned 76.0/ 90.0 which is 84.44% which is a solid B
+
+========================================================
+SPECIFIC COMMENTS/FEEDBACK:
+
+Not too bad!  A couple of comments:
+
+On problem 1, the second part of the problem was to make equations using
+only NAND gates, which you didn't do.
+
+On problem 2, your truth table is a bit off.  There should be '1's at rows
+3, 4, 5, 7, 8, and 15 and '0's everywhere else.  This means your schematic
+is also a little off....
+
+On problem 3-b you have the wrong end ~ my bad for not specifying which end.
+On problem 3-c the remainder will be somewhere between 0 and 7 so you need
+   to mask the three LSB's with '1'x.
+On problem 3-d you only need to OR with all '1's; remember the bit pattern
+   for '-1' is all ones.
+On problem 3-f you used 'mod' which is NOT a 'logical' operation.
+
+On problem 5, you are missing a few lines from the code.  Also, your last
+line is to jump to location 3, not end the program.
+
+On problem 6, GCD ~ WOW you did a lot of work on this!  I think we need to
+spend some time on how this stuff works, but ultimately it's pretty close...
+
+On problem 7, yes I meant swap the values...
+
+On problem 8, you need two jumps, one for greater than and one for equal to.
+
+On problem 9, the values will swap between r8 and r9.  The reason for this
+is the "XOR swap" effect.
+
+Good job!
+
+========================================================
+SEMESTER SCORE SO FAR:
+
+   homework01 ~ 100.00% of  5 points =  5.00 points
+   homework02 ~  97.50% of  5 points =  4.88 points
+   homework03 ~  75.68% of  5 points =  3.78 points
+   homework04 ~  84.44% of  5 points =  4.22 points
+                                total: 17.88 out of 20.0 =  89.41%
+                                which is a B-plus for homework so far
+
+Since quizzes and tests are individual, that score is not added in to the
+group work.  Quiz one is worth 10%.
+
+Keep up the good work!
