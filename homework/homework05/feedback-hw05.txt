@@ -1,0 +1,71 @@
+
+
+Evaluation Criteria ~ homework05
+CMSI 2210 Section 01 Fall 2022
+=================================
+
+dec2bin
+   compiles       [ 5 pts.]      5 points earned
+   error checks   [ 5 pts.]      5 points earned
+   runs  tests    [10 pts.]     10 points earned
+dec2hex
+   compiles       [ 5 pts.]      5 points earned
+   error checks   [ 5 pts.]      5 points earned
+   32-bit tests   [ 5 pts.]      4 points earned
+   64-bit tests   [ 5 pts.]      2 points earned
+timesTables
+   compiles       [ 5 pts.]      5 points earned
+   error checks   [ 5 pts.]      5 points earned
+   runs  tests    [10 pts.]     10 points earned
+holdit
+   compiles       [ 5 pts.]      5 points earned
+   runs tests     [15 pts.]     15 points earned
+wordcount
+   compiles       [ 5 pts.]      5 points earned
+   error checks   [ 5 pts.]      5 points earned
+   runs tests     [10 pts.]      9 points earned
+
+             Total possible ~ 100 points
+
+========================================================
+
+TOTAL EARNED POINTS:
+   you earned  95/100 which is 95.00% which is a solid A
+
+========================================================
+SPECIFIC COMMENTS/FEEDBACK:
+
+Everything compiles just fine!
+
+Everything runs fine, too, with a couple of exceptions:
+Your dec2hex doesn't handle 64-bit output and doesn't ask the user either
+for 32-bit or 64-bit output; it only displays the number of digits that
+show the converted number.
+Your timesTables program was supposed to put out a matrix like:
+
+  X |  2|  3|  4
+------------------
+  2 |  4   6   8
+  3 |  6   9  12
+  4 |  8  12  16
+
+what you did works, though.
+Finally, wordcount can't find the file if it is asked for from the user,
+even though if it is entered on the command line it is found just fine.
+
+========================================================
+SEMESTER SCORE SO FAR:
+
+   homework01 ~ 100.00% of  5 points =  5.00 points
+   homework02 ~  97.50% of  5 points =  4.88 points
+   homework03 ~  75.68% of  5 points =  3.78 points
+   homework04 ~  84.44% of  5 points =  4.22 points
+   homework05 ~  95.00% of 10 points =  9.50 points
+                                total: 27.38 out of 30.00 =  91.26%
+                                which is an A-minus
+
+Your code is very good looking.  Keep up the good work!
+
+I highly recommend starting early on the last homework, it's going to take
+some time to get the 'nasm' code to work.  Just a heads-up!
+

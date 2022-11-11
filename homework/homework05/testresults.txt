@@ -1,0 +1,138 @@
+.
+"running tests on dec2bin"
+Enter an base-10 number to convert
+0's 32-bit binary value equivalent is
+00000000000000000000000000000000
+Enter an base-10 number to convert
+0's 32-bit binary value equivalent is
+00000000000000000000000000000000
+Enter an base-10 number to convert
+0's 32-bit binary value equivalent is
+00000000000000000000000000000000
+Enter an base-10 number to convert
+0's 32-bit binary value equivalent is
+00000000000000000000000000000000
+Enter an base-10 number to convert
+977272832's 32-bit binary value equivalent is
+00111010010000000000000000000000
+Enter an base-10 number to convert
+1073746484's 32-bit binary value equivalent is
+01000000000000000001001000110100
+.
+"running tests on dec2hex"
+Enter an base-10 number to convert
+0x40175B
+Enter an base-10 number to convert
+0x40175B
+Enter an base-10 number to convert
+0x40175B
+Enter an base-10 number to convert
+0x40175B
+Enter an base-10 number to convert
+0x3A400000
+Enter an base-10 number to convert
+0x40001234
+Enter an base-10 number to convert
+0x
+˜Enter an base-10 number to convert
+0x
+˜Enter an base-10 number to convert
+0x
+˜Enter an base-10 number to convert
+0x3A400000
+Enter an base-10 number to convert
+0x4000123
+4.
+"running tests on timesTables"
+Input number to display times tables up to
+Multiplication table from 2 to 0
+
+
+
+
+
+
+
+
+
+Input number to display times tables up to
+Multiplication table from 2 to 2
+2 * 2 = 4,
+2 * 3 = 6,
+2 * 4 = 8,
+2 * 5 = 10,
+2 * 6 = 12,
+2 * 7 = 14,
+2 * 8 = 16,
+2 * 9 = 18,
+2 * 10 = 20,
+
+Input number to display times tables up to
+Multiplication table from 2 to 5
+2 * 2 = 4, 3 * 2 = 6, 4 * 2 = 8, 5 * 2 = 10,
+2 * 3 = 6, 3 * 3 = 9, 4 * 3 = 12, 5 * 3 = 15,
+2 * 4 = 8, 3 * 4 = 12, 4 * 4 = 16, 5 * 4 = 20,
+2 * 5 = 10, 3 * 5 = 15, 4 * 5 = 20, 5 * 5 = 25,
+2 * 6 = 12, 3 * 6 = 18, 4 * 6 = 24, 5 * 6 = 30,
+2 * 7 = 14, 3 * 7 = 21, 4 * 7 = 28, 5 * 7 = 35,
+2 * 8 = 16, 3 * 8 = 24, 4 * 8 = 32, 5 * 8 = 40,
+2 * 9 = 18, 3 * 9 = 27, 4 * 9 = 36, 5 * 9 = 45,
+2 * 10 = 20, 3 * 10 = 30, 4 * 10 = 40, 5 * 10 = 50,
+
+Input number to display times tables up to
+Multiplication table from 2 to 10
+2 * 2 = 4, 3 * 2 = 6, 4 * 2 = 8, 5 * 2 = 10, 6 * 2 = 12, 7 * 2 = 14, 8 * 2 = 16, 9 * 2 = 18, 10 * 2 = 20,
+2 * 3 = 6, 3 * 3 = 9, 4 * 3 = 12, 5 * 3 = 15, 6 * 3 = 18, 7 * 3 = 21, 8 * 3 = 24, 9 * 3 = 27, 10 * 3 = 30,
+2 * 4 = 8, 3 * 4 = 12, 4 * 4 = 16, 5 * 4 = 20, 6 * 4 = 24, 7 * 4 = 28, 8 * 4 = 32, 9 * 4 = 36, 10 * 4 = 40,
+2 * 5 = 10, 3 * 5 = 15, 4 * 5 = 20, 5 * 5 = 25, 6 * 5 = 30, 7 * 5 = 35, 8 * 5 = 40, 9 * 5 = 45, 10 * 5 = 50,
+2 * 6 = 12, 3 * 6 = 18, 4 * 6 = 24, 5 * 6 = 30, 6 * 6 = 36, 7 * 6 = 42, 8 * 6 = 48, 9 * 6 = 54, 10 * 6 = 60,
+2 * 7 = 14, 3 * 7 = 21, 4 * 7 = 28, 5 * 7 = 35, 6 * 7 = 42, 7 * 7 = 49, 8 * 7 = 56, 9 * 7 = 63, 10 * 7 = 70,
+2 * 8 = 16, 3 * 8 = 24, 4 * 8 = 32, 5 * 8 = 40, 6 * 8 = 48, 7 * 8 = 56, 8 * 8 = 64, 9 * 8 = 72, 10 * 8 = 80,
+2 * 9 = 18, 3 * 9 = 27, 4 * 9 = 36, 5 * 9 = 45, 6 * 9 = 54, 7 * 9 = 63, 8 * 9 = 72, 9 * 9 = 81, 10 * 9 = 90,
+2 * 10 = 20, 3 * 10 = 30, 4 * 10 = 40, 5 * 10 = 50, 6 * 10 = 60, 7 * 10 = 70, 8 * 10 = 80, 9 * 10 = 90, 10 * 10 = 100,
+
+Input number to display times tables up to
+Multiplication table from 2 to 12
+2 * 2 = 4, 3 * 2 = 6, 4 * 2 = 8, 5 * 2 = 10, 6 * 2 = 12, 7 * 2 = 14, 8 * 2 = 16, 9 * 2 = 18, 10 * 2 = 20, 11 * 2 = 22, 12 * 2 = 24,
+2 * 3 = 6, 3 * 3 = 9, 4 * 3 = 12, 5 * 3 = 15, 6 * 3 = 18, 7 * 3 = 21, 8 * 3 = 24, 9 * 3 = 27, 10 * 3 = 30, 11 * 3 = 33, 12 * 3 = 36,
+2 * 4 = 8, 3 * 4 = 12, 4 * 4 = 16, 5 * 4 = 20, 6 * 4 = 24, 7 * 4 = 28, 8 * 4 = 32, 9 * 4 = 36, 10 * 4 = 40, 11 * 4 = 44, 12 * 4 = 48,
+2 * 5 = 10, 3 * 5 = 15, 4 * 5 = 20, 5 * 5 = 25, 6 * 5 = 30, 7 * 5 = 35, 8 * 5 = 40, 9 * 5 = 45, 10 * 5 = 50, 11 * 5 = 55, 12 * 5 = 60,
+2 * 6 = 12, 3 * 6 = 18, 4 * 6 = 24, 5 * 6 = 30, 6 * 6 = 36, 7 * 6 = 42, 8 * 6 = 48, 9 * 6 = 54, 10 * 6 = 60, 11 * 6 = 66, 12 * 6 = 72,
+2 * 7 = 14, 3 * 7 = 21, 4 * 7 = 28, 5 * 7 = 35, 6 * 7 = 42, 7 * 7 = 49, 8 * 7 = 56, 9 * 7 = 63, 10 * 7 = 70, 11 * 7 = 77, 12 * 7 = 84,
+2 * 8 = 16, 3 * 8 = 24, 4 * 8 = 32, 5 * 8 = 40, 6 * 8 = 48, 7 * 8 = 56, 8 * 8 = 64, 9 * 8 = 72, 10 * 8 = 80, 11 * 8 = 88, 12 * 8 = 96,
+2 * 9 = 18, 3 * 9 = 27, 4 * 9 = 36, 5 * 9 = 45, 6 * 9 = 54, 7 * 9 = 63, 8 * 9 = 72, 9 * 9 = 81, 10 * 9 = 90, 11 * 9 = 99, 12 * 9 = 108,
+2 * 10 = 20, 3 * 10 = 30, 4 * 10 = 40, 5 * 10 = 50, 6 * 10 = 60, 7 * 10 = 70, 8 * 10 = 80, 9 * 10 = 90, 10 * 10 = 100, 11 * 10 = 110, 12 * 10 = 120,
+
+Input number to display times tables up to
+Multiplication table from 2 to 13
+2 * 2 = 4, 3 * 2 = 6, 4 * 2 = 8, 5 * 2 = 10, 6 * 2 = 12, 7 * 2 = 14, 8 * 2 = 16, 9 * 2 = 18, 10 * 2 = 20, 11 * 2 = 22, 12 * 2 = 24, 13 * 2 = 26,
+2 * 3 = 6, 3 * 3 = 9, 4 * 3 = 12, 5 * 3 = 15, 6 * 3 = 18, 7 * 3 = 21, 8 * 3 = 24, 9 * 3 = 27, 10 * 3 = 30, 11 * 3 = 33, 12 * 3 = 36, 13 * 3 = 39,
+2 * 4 = 8, 3 * 4 = 12, 4 * 4 = 16, 5 * 4 = 20, 6 * 4 = 24, 7 * 4 = 28, 8 * 4 = 32, 9 * 4 = 36, 10 * 4 = 40, 11 * 4 = 44, 12 * 4 = 48, 13 * 4 = 52,
+2 * 5 = 10, 3 * 5 = 15, 4 * 5 = 20, 5 * 5 = 25, 6 * 5 = 30, 7 * 5 = 35, 8 * 5 = 40, 9 * 5 = 45, 10 * 5 = 50, 11 * 5 = 55, 12 * 5 = 60, 13 * 5 = 65,
+2 * 6 = 12, 3 * 6 = 18, 4 * 6 = 24, 5 * 6 = 30, 6 * 6 = 36, 7 * 6 = 42, 8 * 6 = 48, 9 * 6 = 54, 10 * 6 = 60, 11 * 6 = 66, 12 * 6 = 72, 13 * 6 = 78,
+2 * 7 = 14, 3 * 7 = 21, 4 * 7 = 28, 5 * 7 = 35, 6 * 7 = 42, 7 * 7 = 49, 8 * 7 = 56, 9 * 7 = 63, 10 * 7 = 70, 11 * 7 = 77, 12 * 7 = 84, 13 * 7 = 91,
+2 * 8 = 16, 3 * 8 = 24, 4 * 8 = 32, 5 * 8 = 40, 6 * 8 = 48, 7 * 8 = 56, 8 * 8 = 64, 9 * 8 = 72, 10 * 8 = 80, 11 * 8 = 88, 12 * 8 = 96, 13 * 8 = 104,
+2 * 9 = 18, 3 * 9 = 27, 4 * 9 = 36, 5 * 9 = 45, 6 * 9 = 54, 7 * 9 = 63, 8 * 9 = 72, 9 * 9 = 81, 10 * 9 = 90, 11 * 9 = 99, 12 * 9 = 108, 13 * 9 = 117,
+2 * 10 = 20, 3 * 10 = 30, 4 * 10 = 40, 5 * 10 = 50, 6 * 10 = 60, 7 * 10 = 70, 8 * 10 = 80, 9 * 10 = 90, 10 * 10 = 100, 11 * 10 = 110, 12 * 10 = 120, 13 * 10 = 130,
+.
+"running test on holdit"
+
+
+   This is program will time how long you can hold your breath
+   Take a deep breath, then press the 'Enter' key.
+   When you absolutely have to exhale, press the enter key again.
+   The duration will be displayed in minutes and seconds.
+
+
+   Recording time now. Press Enter when you can't hold your breath any longer.
+You held your breathe for 0.061167 minutes or 3.670000 seconds
+       .
+"running test on wordcount"
+   Enter a file name:
+   reading contents of empty.
+File empty does not exist
+   reading contents of inputfile.txt.
+   number of words in file inputfile.txt is: 394
+Enter a file name:
+   reading contents of inputfile.txt.
+   File inputfile.txt does not exist
