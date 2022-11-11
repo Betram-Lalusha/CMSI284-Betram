@@ -22,17 +22,17 @@ void countBreathe() {
 }
 
 int main(int argc, char *argv[]) {
-    clock_t startTime, endTime;
+    time_t startTime, endTime;
     double totalTime, minutes, seconds;
 
     instructions();
 
     //check if enter key is pressed
     if(getchar() == '\n') {
-        startTime = clock();
+        startTime = time(NULL);
         countBreathe();
-        endTime = clock();
-        totalTime = (double)(endTime - startTime) / CLOCKS_PER_SEC;
+        endTime = time(NULL);
+        totalTime = endTime - startTime;
         minutes = totalTime / 60;
         printf("You held your breathe for %f minutes or %f seconds \n", minutes, totalTime);
         printf("       ");
