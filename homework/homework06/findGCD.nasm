@@ -11,6 +11,9 @@ findGcd: jmp  findMod
                     ; if remainder is 0, current number is gcd
 
 ;find the mod of the two numbers
+;look up idiv command 
+;registers in week 11
+;xor before call to idiv
 findMod: 
 
 end:  
