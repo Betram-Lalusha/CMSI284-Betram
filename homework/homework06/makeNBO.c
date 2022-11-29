@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#define start main 
 
 int swapEndians(int value)
 {
@@ -29,28 +30,30 @@ int swapEndians(int value)
 	result = (leftmost_byte | left_middle_byle
 			| right_middle_byte | rightmost_byte);
 
+	printf("network byte order is %d",
+		result);
 	return result;
 }
 
 // Driver Code
-int main(int argc, char *argv[]) 
-{
+// int main(int argc, char *argv[]) 
+// {
 
-    if(argc < 2) {
-        printf("agument needed");
-        return -1;
-    }
+//     if(argc < 2) {
+//         printf("agument needed");
+//         return -1;
+//     }
 
-	int little_Endian = atoi(argv[1]);
+// 	int little_Endian = atoi(argv[1]);
 
-	int result;
+// 	int result;
 
-	result = swapEndians(little_Endian);
+// 	// result = swapEndians(little_Endian);
 
-    printf("The argument supplied is %s\n", argv[1]);
-    printf("The argument supplied is2 %x\n", little_Endian);
-	printf("network byte order is %d",
-		result);
+//     printf("The argument supplied is %s\n", argv[1]);
+//     printf("The argument supplied is2 %x\n", little_Endian);
+// 	// printf("network byte order is %d",
+// 	// 	result);
 
-	return 0;
-}
+// 	return 0;
+// }
