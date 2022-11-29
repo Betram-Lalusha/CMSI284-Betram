@@ -5,12 +5,9 @@ _gcd:   mov   rax, rdi ; first argument, the dividend, was in rdi
         div   rsi      ; second argument, the divisor, was in rsi. This operation divides rax by rsi. The result stored in rax, mod in rdx
         cmp   rdx, 0   ; see if mod is 0
         je    returnMod
-        ;ret ;errors start after this line
+        mov   rdi, rsi ; mov prev divisor into rdi. This is the new dividend
         mov   rsi, rdx ; mov mod  into rsi. this is the new divisor
-        mov   rdi, rax ; mov result of division into rdi. This is the new dividend
-        ;cmp   rsi, 0   ; see if mod is 0
-        jmp     _gcd   ; if not equal, repeat
-        ;ret            ; return what is in rax   
+        jmp     _gcd   ; repeat  
 
 returnMod: mov  rax, rsi ; rsi contains gcd
            ret                             
