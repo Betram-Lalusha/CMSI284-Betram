@@ -35,6 +35,8 @@ int swapEndians(int value)
 	return result;
 }
 
+//gcc -c makeNBO.c -o swapEndians 
+
 // Driver Code
 // int main(int argc, char *argv[]) 
 // {

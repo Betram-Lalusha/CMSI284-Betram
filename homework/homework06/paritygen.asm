@@ -1,16 +1,29 @@
-           global   _main
-           extern   _printf
-           default   rel
-           section  .text
+           global   start
 
-_main:     mov rax, 10110101b 
-           xor rax, 0
-           mov rax, 11001100b 
-           xor rax, 0
-           mov rdx, format
-           mov rsi, rax
+           section  .text
+start:     mov rax, 0x20000000; pass in byte
+           mov r9, 0
+           mov r12, 0
+           jmp repeat 
+
+repeat:    and rax, 0x01
+           cmp rax, 0x01
+           je  count
+           shr rax, 1
+           inc r12
+           cmp r12, 32
+           je  end
+           jmp repeat
+
+count:     inc r9
+           shr rax, 1
+           inc r12
+           cmp r12, 32
+           je  end
+           jmp repeat
+end:       mov rax, r9
            ret
 
-           section .data
-number:    dq      00100110
-format:    db      "number is %x", 1, 0
+;            section .data
+
+;shift right or shitf left
