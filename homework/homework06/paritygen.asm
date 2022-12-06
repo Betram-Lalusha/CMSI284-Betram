@@ -1,7 +1,7 @@
            global   start
 
            section  .text
-start:     mov rax, 0x20000000; pass in byte
+start:     mov rax, 9; pass in byte
            mov r9, 0
            mov r12, 0
            jmp repeat 
@@ -23,7 +23,3 @@ count:     inc r9
            jmp repeat
 end:       mov rax, r9
            ret
-
-;            section .data
-
-;shift right or shitf left

@@ -3,7 +3,7 @@
 #include <string.h>
 #define start main 
 
-int swapEndians(int value)
+int makeNBOC(int value)
 {
     int result;
 	int leftmost_byte;
