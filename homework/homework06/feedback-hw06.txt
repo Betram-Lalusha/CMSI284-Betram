@@ -1,0 +1,92 @@
+
+
+Evaluation Criteria ~ homework06
+CMSI 2210 Section 01 Fall 2022
+=================================
+
+FINDGCD.NASM
+   assembles            [5 pts.] 5 points earned
+   runs                 [5 pts.] 0 points earned
+   output correct       [2 pts.] 2 points earned
+GCDFINDER
+   nasm file assembles  [5 pts.] 5 points earned
+   gcdFinder.c compiles [5 pts.] 5 points earned
+   link both files      [5 pts.] 5 points earned
+   nasm returns value   [5 pts.] 5 points earned
+   output correct       [2 pts.] 2 points earned
+PARITYGEN
+   nasm assembles       [5 pts.] 4 points earned
+   nasm links           [5 pts.] 5 points earned
+   nasm runs            [5 pts.] 5 points earned
+   output correct       [2 pts.] 0 points earned
+WHICHENDISUP
+   compiles no errors   [5 pts.] 5 points earned
+   runs no errors       [5 pts.] 5 points earned
+MAKENBOC.C
+   compiles no errors   [5 pts.] 5 points earned
+   uses previous func.  [5 pts.] 5 points earned
+   tester compiles      [5 pts.] 5 points earned
+   tester runs          [5 pts.] 5 points earned
+   output correct       [2 pts.] 2 points earned
+MAKENBO.NASM
+   assembles            [5 pts.] 5 points earned
+   link both files      [5 pts.] 5 points earned
+   calls "C" function   [5 pts.] 5 points earned
+   output correct       [2 pts.] 1 points earned
+
+Total possible points 100
+
+========================================================
+
+TOTAL EARNED POINTS:
+   you earned 91.00/100.00 which is 91% which is an A-minus
+
+========================================================
+SPECIFIC COMMENTS/FEEDBACK:
+
+problem 1 findGCD.nasm: there is no main for this one, so I can't run it as
+as standalone program the way the problem statement required.  The function
+works, though.
+
+problem 2 gcdFinder.c and findGCD2.nasm: this works, but because you use the
+assert() function there is no output.  It would be helpful to have some sort
+of printf statement, at LEAST at the end saying all tests passed, but users
+like to see more interactivity.  'nuff said....'
+
+problem 3 paritygen: A couple of problems linking with gcc which I fixed.
+You didn't include any output to say what the parity is.  Dang.
+
+problem 4 whichEndIsUp: perfect.
+
+problem 5 makeNBOC.c and makeNBOtester.c: this seems to work when I un-comment
+the 'main' code in the makeNBOC.c file.  However, the output is a bit confused
+since there are two output statements:
+
+%> makeNBOC 1
+The argument supplied is 1
+The argument supplied is2 1
+
+Close enough thou, I think, it's in the main code not the function.
+
+problem 6 makeNBO.nasm and makeNBOC.c: This seems to work also, but it goes
+into an infinte loop.  Something to look at later.
+
+Very nice work on this ~~~
+
+========================================================
+SEMESTER HOMEWORK TOTALS:
+
+   homework01 ~ 100.00% of  5 points =  5.00 points
+   homework02 ~  97.50% of  5 points =  4.88 points
+   homework03 ~  75.68% of  5 points =  3.78 points
+   homework04 ~  84.44% of  5 points =  4.22 points
+   homework05 ~  95.00% of 10 points =  9.50 points
+   homework06 ~  91.00% of 15 points = 13.65 points
+                       semester total: 41.06 out of 45.00 = 91.17%
+                             which is an A-minus
+
+Great job on this difficult assignment!
+
+A very impressive finish to a very impressive semester!  Happy holidays and
+I look forward to having you three in future courses!
+

@@ -1,7 +1,10 @@
-           global   start
+;           global   start       ; should be 'main'
+            global   _main
 
            section  .text
-start:     mov rax, 9; pass in byte
+;start:     mov rax, 9; pass in byte
+_main:
+           mov rax, 9         ; pass in byte
            mov r9, 0
            mov r12, 0
            jmp repeat 

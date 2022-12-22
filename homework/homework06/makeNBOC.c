@@ -38,24 +38,22 @@ int makeNBOC(int value)
 //gcc -c makeNBO.c -o swapEndians 
 
 // Driver Code
-// int main(int argc, char *argv[]) 
-// {
+// int main(int argc, char *argv[])  {
 
 //     if(argc < 2) {
 //         printf("agument needed");
 //         return -1;
 //     }
 
-// 	int little_Endian = atoi(argv[1]);
+//  	int little_Endian = atoi(argv[1]);
+//  	int result;
 
-// 	int result;
-
-// 	// result = swapEndians(little_Endian);
+//  	// result = swapEndians(little_Endian);
 
 //     printf("The argument supplied is %s\n", argv[1]);
 //     printf("The argument supplied is2 %x\n", little_Endian);
-// 	// printf("network byte order is %d",
-// 	// 	result);
+//  	// printf("network byte order is %d",
+//  	// 	result);
 
-// 	return 0;
+//  	return 0;
 // }
